@@ -1,0 +1,26 @@
+Package: mgClustBCC
+Title: mgClustBCC: Multivariate Guided Bayesian Consensus Clustering
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Wenjia",
+           family = "Wang",
+           role = c("aut", "cre"),
+           email = "wew89@pitt.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package includes funcitons for mgClustBCC model inference (MCMC), parameter estimation (estimate), posterior likelihood derivation (postLogLK), and cluster prediction (predict)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    MASS, 
+    mclust,
+    BayesLogit,
+    survival
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
